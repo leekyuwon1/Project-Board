@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*#wrap {
+    width: 400px;
+    margin: 0 auto 0 auto;
+}
+
+#detailBoard{
+    text-align :center;
+}
+
+#title{
+    height : 16px;
+    font-family :'돋움';
+    font-size : 12px;
+    text-align :center;
+    background-color: #F7F7F7;
+}*/
+
+#btn1{
+    display: flex;
+    align-items: center;
+    text-align : center;
+}
+
+/*a*//*:hover{
+    font-size: 13px;
+}*/

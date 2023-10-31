@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+body {
+    background: #e0e5ec;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #676767;
+}
+.frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+button {
+    margin: 20px;
+}
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    font-size: 9pt;
+    font-family:굴림;
+}
+
+/* 하이퍼링크 css */
+a {
+    cursor: hand;
+    color: #000000;
+    text-decoration: none;
+    font-size: 9pt;
+    line-height: 150%;
+}
+
+a:hover, a:active {
+    font-size: 9pt;
+    color: #F28011;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+td {font-size: 9pt;}
+
+.btn1 {
+    font-size: 9pt;
+    color:rgb(0,0,0);
+    background-color:rgb(245,245,245);
+    line-height:16px;
+}
+
+.btn2 {
+    color:#000000;
+    font: normal 9pt '굴림','trebuchet ms',helvetica,sans-serif;
+    background-color:#E4E4E4;
+    border:1px solid;
+    border-color: #696 #363 #363 #696;
+    line-height:16px;
+    padding:1px 6px 1px 6px;
+}
+.comment{
+    display: block;
+    padding: 14px;
+    margin-left: 14px;
+    font-size : 9px;
+    background: rgba(18,250,255,0.5);
+    border-radius: 10px;
+    cursor : pointer;
+    border : none;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1); /* 약간 희미한 그림자 */
+}
+.list_menu{
+    text-align:right;
+    margin : 4px;
+    padding: 3px 9px;
+    font-size : 10px;
+    background: rgba(18,250,255,0.5);
+    border-radius: 5px;
+    cursor : pointer;
+    border : none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); /* 약간 희미한 그림자 */
+}
+button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
